@@ -1,0 +1,44 @@
+<robot name="cartpole">
+
+  <!-- World link -->
+  <link name="world"/>
+
+  <!-- Cart -->
+  <link name="cart">
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0"/>
+      <inertia
+        ixx="0.1" iyy="0.1" izz="0.1"
+        ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <!-- Pole -->
+  <link name="pole">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0.5"/>
+      <inertia
+        ixx="0.01" iyy="0.01" izz="0.01"
+        ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <!-- Cart joint -->
+  <joint name="cart_joint" type="prismatic">
+    <parent link="world"/>
+    <child link="cart"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="50" velocity="5" lower="-2" upper="2"/>
+  </joint>
+
+  <!-- Pole joint -->
+  <joint name="pole_joint" type="revolute">
+    <parent link="cart"/>
+    <child link="pole"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" velocity="10" lower="-3.14" upper="3.14"/>
+  </joint>
+
+</robot>
