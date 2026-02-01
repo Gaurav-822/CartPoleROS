@@ -1,0 +1,29 @@
+[2.297s] Invoking command in '/home/gbk08/cartpole_ws/build/cartpole_sim': PYTHONPATH=/home/gbk08/cartpole_ws/build/cartpole_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gbk08/cartpole_ws/install/cartpole_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gbk08/cartpole_ws/build/cartpole_sim/build --no-deps symlink_data
+[3.216s] running develop
+[3.766s] running egg_info
+[3.766s] creating cartpole_sim.egg-info
+[3.822s] writing cartpole_sim.egg-info/PKG-INFO
+[3.823s] writing dependency_links to cartpole_sim.egg-info/dependency_links.txt
+[3.824s] writing requirements to cartpole_sim.egg-info/requires.txt
+[3.824s] writing top-level names to cartpole_sim.egg-info/top_level.txt
+[3.825s] writing manifest file 'cartpole_sim.egg-info/SOURCES.txt'
+[3.933s] reading manifest file 'cartpole_sim.egg-info/SOURCES.txt'
+[3.934s] writing manifest file 'cartpole_sim.egg-info/SOURCES.txt'
+[3.988s] running build_ext
+[3.988s] Creating /home/gbk08/cartpole_ws/install/cartpole_sim/lib/python3.12/site-packages/cartpole-sim.egg-link (link to .)
+[3.990s] 
+[3.990s] Installed /home/gbk08/cartpole_ws/build/cartpole_sim
+[3.991s] running symlink_data
+[3.991s] creating /home/gbk08/cartpole_ws/install/cartpole_sim/share/ament_index
+[3.992s] creating /home/gbk08/cartpole_ws/install/cartpole_sim/share/ament_index/resource_index
+[3.993s] creating /home/gbk08/cartpole_ws/install/cartpole_sim/share/ament_index/resource_index/packages
+[3.994s] symbolically linking /home/gbk08/cartpole_ws/build/cartpole_sim/resource/cartpole_sim -> /home/gbk08/cartpole_ws/install/cartpole_sim/share/ament_index/resource_index/packages
+[3.996s] symbolically linking /home/gbk08/cartpole_ws/build/cartpole_sim/package.xml -> /home/gbk08/cartpole_ws/install/cartpole_sim/share/cartpole_sim
+[3.996s] creating /home/gbk08/cartpole_ws/install/cartpole_sim/share/cartpole_sim/launch
+[3.998s] symbolically linking /home/gbk08/cartpole_ws/build/cartpole_sim/launch/sim.launch.py -> /home/gbk08/cartpole_ws/install/cartpole_sim/share/cartpole_sim/launch
+[3.999s] creating /home/gbk08/cartpole_ws/install/cartpole_sim/share/cartpole_sim/urdf
+[4.000s] symbolically linking /home/gbk08/cartpole_ws/build/cartpole_sim/urdf/world_with_force.sdf -> /home/gbk08/cartpole_ws/install/cartpole_sim/share/cartpole_sim/urdf
+[4.002s] symbolically linking /home/gbk08/cartpole_ws/build/cartpole_sim/urdf/cartpole.urdf -> /home/gbk08/cartpole_ws/install/cartpole_sim/share/cartpole_sim/urdf
+[4.004s] creating /home/gbk08/cartpole_ws/install/cartpole_sim/share/cartpole_sim/config
+[4.005s] symbolically linking /home/gbk08/cartpole_ws/build/cartpole_sim/config/controllers.yaml -> /home/gbk08/cartpole_ws/install/cartpole_sim/share/cartpole_sim/config
+[4.072s] Invoked command in '/home/gbk08/cartpole_ws/build/cartpole_sim' returned '0': PYTHONPATH=/home/gbk08/cartpole_ws/build/cartpole_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gbk08/cartpole_ws/install/cartpole_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gbk08/cartpole_ws/build/cartpole_sim/build --no-deps symlink_data

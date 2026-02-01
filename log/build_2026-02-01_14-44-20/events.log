@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.001004] (cartpole_sim) JobQueued: {'identifier': 'cartpole_sim', 'dependencies': OrderedDict()}
+[0.001134] (cartpole_sim) JobStarted: {'identifier': 'cartpole_sim'}
+[0.099931] (-) TimerEvent: {}
+[0.202002] (-) TimerEvent: {}
+[0.302866] (-) TimerEvent: {}
+[0.405304] (-) TimerEvent: {}
+[0.507143] (-) TimerEvent: {}
+[0.609530] (-) TimerEvent: {}
+[0.711465] (-) TimerEvent: {}
+[0.812810] (-) TimerEvent: {}
+[0.914773] (-) TimerEvent: {}
+[1.016240] (-) TimerEvent: {}
+[1.119210] (-) TimerEvent: {}
+[1.221420] (-) TimerEvent: {}
+[1.323745] (-) TimerEvent: {}
+[1.424530] (-) TimerEvent: {}
+[1.527316] (-) TimerEvent: {}
+[1.629590] (-) TimerEvent: {}
+[1.732108] (-) TimerEvent: {}
+[1.834541] (-) TimerEvent: {}
+[1.936969] (-) TimerEvent: {}
+[2.039056] (-) TimerEvent: {}
+[2.141903] (-) TimerEvent: {}
+[2.159870] (cartpole_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/gbk08/cartpole_ws/build/cartpole_sim/build', '--no-deps', 'symlink_data'], 'cwd': '/home/gbk08/cartpole_ws/build/cartpole_sim', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'gbk08', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/gbk08/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/gbk08', 'OLDPWD': '/home/gbk08/cartpole_ws', 'TERM_PROGRAM_VERSION': '1.108.2', 'NVM_BIN': '/home/gbk08/.nvm/versions/node/v24.11.1/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5630fe74-ef7d-4e30-9f51-1d29cf91bd24.sock', 'NVM_INC': '/home/gbk08/.nvm/versions/node/v24.11.1/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/gbk08/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/gbk08/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/gbk08/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/gbk08/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/gbk08/cartpole_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gbk08', 'NAME': 'Zephyrus', 'WSL_INTEROP': '/run/WSL/561_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/gbk08/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/gbk08/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/gbk08/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/home/gbk08/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/gbk08/.nvm/versions/node/v24.11.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Gaurav/.pixi/bin:/mnt/c/Users/Gaurav/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Gaurav/AppData/Local/spicetify:/mnt/c/Users/Gaurav/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Gaurav/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Gaurav/AppData/Local/Programs/Ollama:/snap/bin:/home/gbk08/.local/bin:/home/gbk08/.local/bin:/home/gbk08/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts:/home/gbk08/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/gbk08/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-df6747ce7a13854a.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/gbk08/.vscode-server/data/User/workspaceStorage/8380e5f9846aa47279fb154810da1141-1/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c595e8bb24.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/gbk08/cartpole_ws/install/cartpole_sim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/gbk08/cartpole_ws/build/cartpole_sim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gbk08/cartpole_ws/build/cartpole_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gbk08/cartpole_ws/install/cartpole_sim/lib/python3.12/site-packages:/home/gbk08/cartpole_ws/build/cartpole_sim:/home/gbk08/cartpole_ws/install/cartpole_sim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[2.247779] (-) TimerEvent: {}
+[2.351413] (-) TimerEvent: {}
+[2.459620] (-) TimerEvent: {}
+[2.560297] (-) TimerEvent: {}
+[2.662138] (-) TimerEvent: {}
+[2.765045] (-) TimerEvent: {}
+[2.867476] (-) TimerEvent: {}
+[2.969644] (-) TimerEvent: {}
+[3.035192] (cartpole_sim) StdoutLine: {'line': b'running develop\n'}
+[3.071245] (-) TimerEvent: {}
+[3.178421] (-) TimerEvent: {}
+[3.280253] (-) TimerEvent: {}
+[3.382565] (-) TimerEvent: {}
+[3.485416] (-) TimerEvent: {}
+[3.569745] (cartpole_sim) StdoutLine: {'line': b'running egg_info\n'}
+[3.586737] (-) TimerEvent: {}
+[3.623071] (cartpole_sim) StdoutLine: {'line': b'writing cartpole_sim.egg-info/PKG-INFO\n'}
+[3.624196] (cartpole_sim) StdoutLine: {'line': b'writing dependency_links to cartpole_sim.egg-info/dependency_links.txt\n'}
+[3.624771] (cartpole_sim) StdoutLine: {'line': b'writing requirements to cartpole_sim.egg-info/requires.txt\n'}
+[3.625211] (cartpole_sim) StdoutLine: {'line': b'writing top-level names to cartpole_sim.egg-info/top_level.txt\n'}
+[3.686879] (-) TimerEvent: {}
+[3.726729] (cartpole_sim) StdoutLine: {'line': b"reading manifest file 'cartpole_sim.egg-info/SOURCES.txt'\n"}
+[3.728629] (cartpole_sim) StdoutLine: {'line': b"writing manifest file 'cartpole_sim.egg-info/SOURCES.txt'\n"}
+[3.785255] (cartpole_sim) StdoutLine: {'line': b'running build_ext\n'}
+[3.785906] (cartpole_sim) StdoutLine: {'line': b'Creating /home/gbk08/cartpole_ws/install/cartpole_sim/lib/python3.12/site-packages/cartpole-sim.egg-link (link to .)\n'}
+[3.786767] (cartpole_sim) StdoutLine: {'line': b'\n'}
+[3.787403] (-) TimerEvent: {}
+[3.787640] (cartpole_sim) StdoutLine: {'line': b'Installed /home/gbk08/cartpole_ws/build/cartpole_sim\n'}
+[3.787946] (cartpole_sim) StdoutLine: {'line': b'running symlink_data\n'}
+[3.855590] (cartpole_sim) CommandEnded: {'returncode': 0}
+[3.888920] (-) TimerEvent: {}
+[3.890604] (cartpole_sim) JobEnded: {'identifier': 'cartpole_sim', 'rc': 0}
+[3.893768] (-) EventReactorShutdown: {}

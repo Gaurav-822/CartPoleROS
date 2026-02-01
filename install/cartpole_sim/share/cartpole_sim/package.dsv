@@ -4,3 +4,6 @@ source;share/cartpole_sim/hook/pythonpath.sh
 source;share/cartpole_sim/hook/ament_prefix_path.ps1
 source;share/cartpole_sim/hook/ament_prefix_path.dsv
 source;share/cartpole_sim/hook/ament_prefix_path.sh
+source;../../build/cartpole_sim/share/cartpole_sim/hook/pythonpath_develop.ps1
+source;../../build/cartpole_sim/share/cartpole_sim/hook/pythonpath_develop.dsv
+source;../../build/cartpole_sim/share/cartpole_sim/hook/pythonpath_develop.sh
